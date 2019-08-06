@@ -1,8 +1,8 @@
-usage:
+#usage: <br>
 
 
-python alpha_exploit.py string variable_length
+usage: alpha_exploit.py [-h] payload encoder badchar <br>
 
-eg:
+eg:<br>
 
-python alpha_exploit.py system 1
+python alpha_exploit.py system xor "\\'"
